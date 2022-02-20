@@ -38,6 +38,11 @@ int main(int argc, char *argv[])
     initialize_game();
 
     // Prompt for players names
+    printf("Welcome to Jeopardy! \n");
+    printf("Player 1, please enter your name: \n");
+    printf("Player 2, please enter your name: \n");
+    printf("Player 3, please enter your name: \n");
+    printf("Player 4, please enter your name: \n");
     
     // initialize each of the players in the array
 
