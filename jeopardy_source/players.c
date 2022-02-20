@@ -13,6 +13,26 @@
 // Returns true if the player name matches one of the existing players
 bool player_exists(player *players, int num_players, char *name)
 {
+    // Random selection from array of players
+    time_t t;
+    srand((unsigned)time(&t));
+
+    for (int i = 0; i < 4; i++)
+
+    {
+        printf("Random selection is: %c\n", players[rand()%4]);
+
+        // Validates name of the person entered
+        if (players = name) {
+            player_exists;
+        }
+
+        else {
+
+            return false;
+        }
+    }
+
     return false;
 }
 
